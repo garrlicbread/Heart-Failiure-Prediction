@@ -1,6 +1,6 @@
 # Heart-Failiure-Prediction
 
-This is a simple classification project that predicts if a patient suffering from a heart failiure is going to survive or not.
+This is a simple classification project that predicts if a patient suffering from a heart failure is going to survive or not.
 The dataset, taken from kaggle, contains 12 variables besides the one we want to predict i.e. The outcome of the patient. The stanza below explains why and how only 4 of the 12 features were considered.
 
 The independant features to be included were decided by their correlations with the dependant variable i.e. DEATH_EVENT and only those were selected that had correlations greater than +/- 0.2. The features satisfying this are:
