@@ -7,10 +7,10 @@ The independant features to be included were decided by their correlations with 
 
 |Features              |Correlations|
 |:--------------------:|:----------:|
-|        age           |  0.253729  |
+|age                   |  0.253729  |
 |ejection_fraction     | -0.268603  |
 |serum_creatinine      |  0.294278  |
-|    DEATH_EVENT       |     1      |
+|DEATH_EVENT           |     1      |
 
 Based on this table, our independant variables are obviously limited but following facts and a fairly reasonable hunch, smoking was also included as a feature.
 
@@ -23,14 +23,14 @@ The script executes in 41.23 seconds and summarizes the accuracies of eight mach
 
 |No.|Classification Models                            |Accuracies|Single Predictions|
 |--:|------------------------------------------------:|---------:|-----------------:|
-| 1 |Logistic Regression Classification               |   80     |                 1|
-| 2 |K Nearest Neighbors Classification               |   90     |                 1|
+| 1 |Logistic Regression Classification               |   80.00  |                 1|
+| 2 |K Nearest Neighbors Classification               |   90.00  |                 1|
 | 3 |Support Vector Machine [Linear] Classification   |   83.33  |                 1|
-| 4 |Support Vector Machine [Gaussian] Classification |   80     |                 1|
-| 5 |Naive Bayes Classification                       |   80     |                 1|
+| 4 |Support Vector Machine [Gaussian] Classification |   80.00  |                 1|
+| 5 |Naive Bayes Classification                       |   80.00  |                 1|
 | 6 |Decision Tree Classification                     |   76.67  |                 0|
 | 7 |Random Forrest Classification                    |   83.33  |                 1|
-| 8 |Gradient Boosting Classification                 |   85     |                 1|
+| 8 |Gradient Boosting Classification                 |   85.00  |                 1|
 
 Thanks: 
 
