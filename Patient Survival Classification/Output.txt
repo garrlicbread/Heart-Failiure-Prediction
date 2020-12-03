@@ -1,0 +1,18 @@
+
+We will decide the variables to be included based on their correlations with the Dependant Variable i.e. Death_Event and consider those features that have correlations greater than +/- 0.2
+
+age                  0.253729
+ejection_fraction   -0.268603
+serum_creatinine     0.294278
+DEATH_EVENT          1.000000
+Name: DEATH_EVENT, dtype: float64
+
+Based on these results, our independant variables will be: 
+
+ 1) Age 
+ 2) Ejection Fraction 
+ 3) Serum Creatinine
+
+However, following facts and a fairly reasonable hunch, let's include Smoking as a feature too.
+
+This program executes in 41.23 seconds.
