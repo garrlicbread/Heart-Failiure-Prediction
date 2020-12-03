@@ -1,8 +1,3 @@
-# A classification python project predicts the likelihood of a patient passing away using different models.
-# Features include age, smoking, gender, diabetes, anemia, plateletes, serum creatinine or sodium etc
-
-# dataset: https://www.kaggle.com/andrewmvd/heart-failure-clinical-data
-
 # Initializing starting time
 import time
 start = time.time()
@@ -22,13 +17,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 
 # Importing data and assigning variables
-dataset = pd.read_csv('C:/Users/Sukant Sidnhwani/Desktop/Python/Projects/Patient Survival Classification/heart_failure_clinical_records_dataset.csv')
+dataset = pd.read_csv('C://Desktop/Python/Projects/Patient Survival Classification/heart_failure_clinical_records_dataset.csv')
 del dataset['time']
 
 # Regression Sensitivity Analysis brought to light the following learnings:
 # Features that improve performance = Age, Ejection_fraction, serum creatinine, smoking
 # Features that impair performance = serum Sodium, diabetes, sex, anaemia, creatinine_phosphokinase, high_blood_pressure, platelets, sex
-# Features that are worthless = Time
 
 X = dataset[['age', 'ejection_fraction', 'serum_creatinine', 'smoking']]  
 y = dataset.iloc[:, -1].values
@@ -156,7 +150,7 @@ list1 = [ac1, ac2, ac3, ac4, ac5, ac6, ac7, ac8]
 list1 = [i * 100 for i in list1]
 list1 = [round(num, 2) for num in list1]
 
-# Predicting a single scenario with randomized independant variables
+# Predicting the outcome of an artifical patient with randomized independant variables 
 
 # Creating demo values 
 demo = [66,     # Age
@@ -199,9 +193,8 @@ classification['Single Predictions'] = list2
 end = time.time()
 print()
 print(f"This program executes in {round((end - start), 2)} seconds.")
-# print()
-
-# print(classification)
+print()
+print(classification)
 
 ## Saving the classification report to a .csv file
 # classification.to_csv('Models.csv')
