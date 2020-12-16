@@ -1,6 +1,6 @@
 # Heart-Failiure-Prediction
 
-This is a simple classification project that predicts if a patient suffering from a heart failure is going to survive or not. It builds a classifier trained on eight different machine learning models and predicts the outcome of an artifical patient. 
+This is a simple classification project that predicts if a patient suffering from heart failure is going to survive or not. It builds a classifier trained on eight different machine learning models and predicts the outcome of an artificial patient. 
 
 The dataset, taken from kaggle, contains 12 variables besides the one we want to predict i.e. The outcome of the patient. The stanza below explains why and how only 4 of the 12 features were considered.
 
