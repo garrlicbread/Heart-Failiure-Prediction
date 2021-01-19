@@ -16,7 +16,7 @@ The independant features to be included were decided by their correlations with 
 Based on this table, our independant variables are obviously limited but following facts and a fairly reasonable hunch, smoking was also included as a feature.
 
  1) Age - Age of the patient
- 2) Ejection Fraction - Percentage of blood leaving the heart at each contraction
+ 2) Ejection Fraction - Percentage of blood being pushed out of the left ventricle of a heart at each contraction
  3) Serum Creatinine - Level of creatinine in the blood (Product of creatine phosphate from muscle and protein metabolism)
  4) Smoking - If the patient smokes
  
