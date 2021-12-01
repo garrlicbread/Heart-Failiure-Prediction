@@ -20,7 +20,7 @@ Based on this table, our independant variables are obviously limited but followi
  3) Serum Creatinine - Level of creatinine in the blood (Product of creatine phosphate from muscle and protein metabolism)
  4) Smoking - If the patient smokes
  
-The classifier is trained in ~40 seconds and after training we initialize an aritifical patient to test the predictions.
+The classifier is trained in ~40 seconds and after training we initialize an artificial patient to test the predictions.
 Lets assume that our aritifical patient is an old chain smoker with 0.87 mg/dL of serum creatinine and 37% ejection fraction.
 We don't know for sure if the patient will survive or not but the numbers above don't seem impressive.
 Now we call all our eight models to predict the outcome of this patient.
