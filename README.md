@@ -46,7 +46,7 @@ Results:
 
 Thanks: 
 
-This project is based on a reasearch published by BMC Medical Informatics and Decision Making where they predict the survival of a patient suffering from heart failure from serum creatinine and ejection fraction alone. 
+This project is based on a research published by BMC Medical Informatics and Decision Making where they predict the survival of a patient suffering from heart failure from serum creatinine and ejection fraction alone. 
 
 References:
 
